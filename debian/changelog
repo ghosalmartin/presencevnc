@@ -1,0 +1,66 @@
+presencevnc (0.8) unstable; urgency=low
+
+  * Add --viewonly, --listen and --help command line options
+  * Use less CPU when display is off
+  * Improve performance of partial repaints, scrolling more fluent
+  * Don't use 32bit color on N900 (16bit display). Greatly reduces transfer
+    rate when using high quality.
+  * Show more detailed error messages in UI
+  * In portrait mode toolbar now only shows zoom slider and fullscreen button
+
+ -- Christian Pulvermacher <pulvermacher@gmx.de>  Sun, 12 Feb 2012 15:49:26 +0100
+
+presencevnc (0.7) unstable; urgency=low
+
+  * Doubleclick zoom slider for 100%
+  * Added "Zoom to cursor" option (on by default)
+  * Show current magnification when zooming
+
+ -- Christian Pulvermacher <pulvermacher@gmx.de>  Thu, 28 Oct 2010 19:48:01 +0200
+
+presencevnc (0.6) unstable; urgency=low
+
+  * Add zoom bar
+  * Add "Listen for Incoming Connections" option to host list
+  * Stability fixes
+
+ -- Christian Pulvermacher <pulvermacher@gmx.de>  Wed, 20 Oct 2010 18:47:05 +0200
+
+presencevnc (0.5) unstable; urgency=low
+
+  * Add "..." menu for additional keys
+  * Add local cursor option
+  * Symbol key (Fn+Ctrl) fixed
+  * Don't start virtual keyboard with caps lock enabled (partial fix)
+  * Add quality setting (per connection)
+
+ -- Christian Pulvermacher <pulvermacher@gmx.de>  Fri, 01 Oct 2010 14:53:51 +0200
+
+presencevnc (0.4) unstable; urgency=low
+
+  * Add virtual keyboard
+  * Remember VNC servers and passwords
+  * Fix tearing after scrolling
+  * Hide toolbar in fullscreen mode
+
+ -- Christian Pulvermacher <pulvermacher@gmx.de>  Mon, 23 Aug 2010 13:39:41 +0200
+
+presencevnc (0.3) unstable; urgency=low
+
+  * Compatibility fix for RealVNC Personal/Enterprise
+  * Fix crash on exit
+  * Add option to disable tapping
+
+ -- Christian Pulvermacher <pulvermacher@gmx.de>  Wed, 04 Aug 2010 20:22:30 +0200
+
+presencevnc (0.2) unstable; urgency=low
+
+  * Add dependency on libjpeg
+
+ -- Christian Pulvermacher <pulvermacher@gmx.de>  Sun, 01 Aug 2010 22:14:17 +0200
+
+presencevnc (0.1) unstable; urgency=low
+
+  * Initial release.
+
+ -- Christian Pulvermacher <pulvermacher@gmx.de>  Sun, 01 Aug 2010 18:39:23 +0200
